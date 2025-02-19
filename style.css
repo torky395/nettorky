@@ -19,21 +19,21 @@ header{
 }
 .logo{
     text-decoration: none;
-    color: green;
+    color: rgb(59, 59, 255);
     text-transform: uppercase;
     font-weight: 840;
     font-size: 1.7em;
 }
 .navigition a{
     text-decoration: none;
-    color: green;
-    font-weight: 500;
+    color: rgb(59, 59, 255);
+    font-weight: 600;
     font-size: 1.1em;
     padding-left: 30px;
 }
 
 .navigition a:hover{
-    color: blueviolet;
+    color: rgb(63, 2, 121);
 }
 
 
@@ -47,7 +47,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(web/photo1.jpeg) no-repeat;
+    background: url(web/photo6.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;  
@@ -55,24 +55,25 @@ section{
 .main h2{
     color: #f0f0f0;
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 450;
 }
 .main h2 span{
     display: inline-block;
     margin-top: 10px;
-    color: green;
+    color: rgb(80, 80, 222);
     font-size: 3.1em;
     font-weight: 900;
 }
 .main h3{
     color: #f0f0f0;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: 700;
+    text-shadow: 3px 3px 5px rgb(123, 0, 255);
 
 }
 .butten{ 
     color: #f0f0f0;
-    background-color: green;
+    background-color: rgb(80, 80, 222);
     height: 50px;
     width: 210px;
 
@@ -88,13 +89,14 @@ section{
     transition: 0.7s ease;
 }
 .butten:hover{
-    background-color: #07bc07;
+    background-color: #7707bc;
     transform: scale(1.09);
 }
 .socialicon a {
     color: #f0f0f0;
     font-size: 1.4em;
     padding-right: 25px;
+    text-shadow: 3px 3px 5px #7707bc;
 
 }
 .title{
@@ -104,6 +106,16 @@ section{
     font-weight: 700;
     font-size: 2em;
     margin-bottom: 20px;
+    text-shadow: 3px 3px 5px rgb(242, 64, 255);
+}
+.titles{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px rgb(242, 64, 255);
 }
 .Content {
     display: flex;
@@ -139,7 +151,7 @@ section{
     margin: 8px;
 }
 .icons{
-    color: rgb(200, 0, 255);
+    color: rgb(197, 45, 221);
     font-size: 6em;
     text-align: center;
 }
@@ -246,6 +258,9 @@ section{
         padding-left: 10px;
     }
     .title{
+        font-size: 1.8em;
+    }
+    .titles{
         font-size: 1.8em;
     }
     section{
